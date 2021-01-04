@@ -12,7 +12,11 @@
 
 with source_data as (
 
+<<<<<<< HEAD
     select 1204 as id
+=======
+    select 1203 as id
+>>>>>>> c06b30b43eee64b317a517c9b42d21573fe87ab0
     union all
     select null as id
 
