@@ -10,7 +10,11 @@
 
 with source_data as (
 
+<<<<<<< HEAD
     select 12007 as id
+=======
+    select 12006 as id
+>>>>>>> 823c4f5c9dd580101fb74636d85e340b5d782b44
     union all
     select null as id
 
