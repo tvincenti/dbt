@@ -36,3 +36,4 @@ models:
               - unique
               - not_null
     - name: myview_stg  
+    - name: myview1
