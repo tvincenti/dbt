@@ -1,1 +1,1 @@
-select 1200 AS Number;
+select 1200 AS Number
