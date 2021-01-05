@@ -1,2 +1,2 @@
 {{ config(schema='EXISTING_MODELS') }}
-SELECT number, 'sales' as sales FROM EXISTING_STAGING.myview_stg
+SELECT number, 'sales' as sales FROM dbt_EXISTING_STAGING.myview_stg
