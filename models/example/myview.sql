@@ -1,4 +1,4 @@
-{{ config(schema='test') }}
+
 
 {% macro generate_schema_name(custom_schema_name, node) -%}
   {%- set default_schema = target.schema -%}
@@ -8,4 +8,7 @@
     {{ custom_schema_name | trim }}
   {%- endif -%}
 {%- endmacro %}
+
+{{ config(schema='tim') }}
+
 SELECT number, 'sales' as sales FROM dbt_EXISTING_STAGING.myview_stg
