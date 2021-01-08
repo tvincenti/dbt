@@ -37,3 +37,4 @@ models:
               - not_null
     - name: myview_stg  
     - name: myview
+    - name: newview_stg
